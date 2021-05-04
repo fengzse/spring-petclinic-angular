@@ -4,7 +4,7 @@ Library     SeleniumLibrary
 *** Keywords ***
 Generate Tests
     Open Browser            about:blank     ${BROWSER}
-
+    Maximize Browser Window
 # Access web page
 Go To Web
     Load Web
